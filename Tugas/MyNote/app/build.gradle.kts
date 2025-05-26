@@ -70,6 +70,11 @@ dependencies {
     implementation(libs.androidx.compose.runtime.livedata)
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
+    implementation(libs.skydoves.sandwich)
+    implementation(libs.skydoves.sandwich.retrofit)
+    implementation(libs.skydoves.whatif)
+    implementation(libs.retrofit.converter.gson)
+
     ksp(libs.androidx.room.compiler)
 
     // UUID
